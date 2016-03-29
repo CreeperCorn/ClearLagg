@@ -1,19 +1,19 @@
-name: ClearLagg
+name: MNetwork-Clear
 main: ClearLagg\Loader
 version: 1.1.0
-api: 1.0.0
+api: 2.0.0
 author: LegendOfMCPE
 website: https://github.com/LegendOfMCPE/ClearLagg
 description: "Port of Bukkit ClearLagg for PocketMine Servers"
 permissions:
   clearlagg:
     default: false
-    description: "Allows access to all ClearLagg features."
+    description: "This plugin is made for MelencioGamer26, if lagging xD."
     children:
       clearlagg.command:
         default: false
-        description: "Allows access to all ClearLagg commands."
+        description: "Allows access to all Lag commands."
         children:  
           clearlagg.command.clearlagg:
             default: op
-            description: "Allows access to the clearlagg command."
+            description: "Allows access to the Lag command."
